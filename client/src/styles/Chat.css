@@ -1,0 +1,24 @@
+.chat-container {
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.chat-sidebar {
+  border-right: 1px solid #dee2e6;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.chat-area {
+  padding: 1rem;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.chat-area .message {
+  margin-bottom: 1rem;
+}
+
+.chat-area .message:last-child {
+  margin-bottom: 0;
+}

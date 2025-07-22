@@ -1,0 +1,15 @@
+.user-chat-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .user-chat-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+  }
+  
+  .user-chat-item:hover {
+    background-color: #f1f3f5;
+  }

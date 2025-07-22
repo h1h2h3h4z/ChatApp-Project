@@ -1,0 +1,60 @@
+.user-card {
+    border-radius: 14px;
+    transition: background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    background: #232a34;
+    box-shadow: 0 1px 6px rgba(36, 99, 235, 0.04);
+    border: 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+    color: #e9ecef;
+  }
+  
+  .user-card:hover {
+    background: #263159;
+    box-shadow: 0 2px 12px rgba(36, 99, 235, 0.10);
+  }
+  
+  .user-pic {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #263159;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .active-chat {
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    border: 1.5px solid #4ea1ff;
+    color: #fff;
+  }
+  
+  .user-online {
+    width: 12px;
+    height: 12px;
+    background: #00e676;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #232a34;
+    box-shadow: 0 0 0 2px #263159;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e9ecef;
+  }
+  
+  @media (max-width: 768px) {
+    .user-card {
+      padding: 8px 8px;
+    }
+    .user-pic {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
